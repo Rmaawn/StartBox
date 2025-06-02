@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // تمرکز روی سرچ بار مرورگر
+    window.focus();
+    
+    // ارسال کلید Tab به مرورگر برای انتقال تمرکز به سرچ بار
+    const tabEvent = new KeyboardEvent('keydown', {
+        key: 'Tab',
+        code: 'Tab',
+        keyCode: 9,
+        which: 9,
+        bubbles: true,
+        cancelable: true
+    });
+    document.dispatchEvent(tabEvent);
+    
     // نمایش تاریخ و زمان
     updateDateTime();
     setInterval(updateDateTime, 1000);
