@@ -16,18 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // نمایش تاریخ و زمان
     updateDateTime();
     setInterval(updateDateTime, 1000);
-    
-    // بارگذاری نشانک‌ها
-    loadBookmarks();
-    
-    // بارگذاری لینک‌های سریع
-    loadQuickLinks();
-    
-    // بارگذاری یادداشت‌ها
-    loadNotes();
-    
-    // ذخیره یادداشت‌ها
-    document.getElementById('save-notes').addEventListener('click', saveNotes);
 });
 
 // تابع به‌روزرسانی تاریخ و زمان
