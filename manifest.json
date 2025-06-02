@@ -2,14 +2,10 @@
   "manifest_version": 3,
   "name": "StartBox",
   "version": "1.0",
-  "description": "افزونه شخصی‌سازی صفحه نیو تب",
+  "description": "minimalist Chrome new tab extension",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
-  "permissions": [
-    "storage",
-    "bookmarks"
-  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
