@@ -4,7 +4,7 @@ minimalist Chrome new tab extension
 
 ## Demo
 
-![Demo Screenshot](https://raw.githubusercontent.com/Rmaawn/StartBox/main/assets/demo.png)
+![Demo Screenshot](https://imgur.com/BIUJNqd)
 
 ## 🛠️Installation
 
