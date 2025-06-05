@@ -4,7 +4,7 @@ minimalist Chrome new tab extension
 
 ## Demo
 
-![Demo Screenshot](https://imgur.com/BIUJNqd)
+![Demo Screenshot](https://imgur.com/BIUJNqd.png)
 
 ## 🛠️Installation
 
